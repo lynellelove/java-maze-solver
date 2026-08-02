@@ -60,12 +60,17 @@ Compile:
 
 ```text
 mkdir -p out
+```
+
+```text
 javac -cp "lib/algs4.jar" -d out src/mazesolver/*.java
 ```
 
 Run:
 
-`java -cp "out:lib/algs4.dir" mazesolver.MazeController`
+```text
+java -cp "out:lib/algs4.dir" mazesolver.MazeController
+```
 
 ### Windows Powershell
 
@@ -73,12 +78,17 @@ Compile:
 
 ```text
 mkdir out
+```
+
+```text
 javac -cp "lib/algs4.jar" -d out src/mazesolver/*.java
 ```
 
 Run:
 
-`java -cp "out;lib/algs4.jar" mazesolver.MazeController`
+```text
+java -cp "out;lib/algs4.jar" mazesolver.MazeController
+```
 
 ## Notes
 
